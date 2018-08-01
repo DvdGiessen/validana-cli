@@ -1,0 +1,40 @@
+{
+  "name": "validana-cli",
+  "version": "1.0.0",
+  "description": "A command-line interface client for the Validana blockchain platform",
+  "author": "Daniël van de Giessen",
+  "license": "MIT",
+  "homepage": "https://github.com/DvdGiessen/validana-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DvdGiessen/validana-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DvdGiessen/validana-cli/issues"
+  },
+  "keywords": [
+    "validana",
+    "blockchain",
+    "client",
+    "cli"
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "bin": {
+    "validana-cli": "lib/index.js"
+  },
+  "scripts": {
+    "lint": "eslint lib/**/*.js"
+  },
+  "dependencies": {
+    "cmdln": "^4.4.0",
+    "fs-extra": "^7.0.0",
+    "validana-client": "git+https://github.com/Coinversable/validana-client.git",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0"
+  }
+}
