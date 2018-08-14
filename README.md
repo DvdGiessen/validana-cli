@@ -18,8 +18,8 @@ sudo npm -g i validana-cli
 ```
 You can now directly start using `validana-cli` from your command line.
 
-By default `validana-cli` tries to connect to an instance of [validana-server
-](https://github.com/Coinversable/validana-server) running on localhost. Use
+By default `validana-cli` tries to connect to an instance of [validana-server](
+https://github.com/Coinversable/validana-server) running on localhost. Use
 the `--url` option to connect to a specific server.
 
 ### Running your own blockchain
@@ -29,8 +29,8 @@ in an empty directory, generate two passwords for the database and a private
 key using the `validana-cli key generate` command, configure these passwords,
 the private key and a prefix of your choosing in the `docker-compose.yml` file
 included in the repository, and run the blockchain with `docker-compose up -d`.
-You can now use private key you generated to create and delete smart contracts;
-see the usage examples below for more things you can do.
+You can now use the private key you generated to create and delete smart
+contracts. See the usage examples below for more things you can do.
 
 ## Usage examples
 Show general usage information:
