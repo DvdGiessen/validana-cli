@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "A command-line interface client for the Validana blockchain platform",
   "author": "Daniël van de Giessen",
-  "license": "MIT",
+  "license": "AGPLv3",
   "homepage": "https://github.com/DvdGiessen/validana-cli#readme",
   "repository": {
     "type": "git",
