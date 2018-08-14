@@ -101,4 +101,4 @@ on [GitHub](https://github.com/DvdGiessen/validana-cli).
 
 ## License
 `validana-cli` is freely distributable under the terms of the
-[MIT license](https://github.com/DvdGiessen/validana-cli/blob/master/LICENSE).
+[AGPLv3 license](https://github.com/DvdGiessen/validana-cli/blob/master/LICENSE).
