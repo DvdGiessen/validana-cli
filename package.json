@@ -1,6 +1,6 @@
 {
   "name": "validana-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A command-line interface client for the Validana blockchain platform",
   "author": "Daniël van de Giessen",
   "license": "MIT",
