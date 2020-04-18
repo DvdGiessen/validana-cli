@@ -29,12 +29,13 @@
     "lint": "eslint lib/**/*.js"
   },
   "dependencies": {
-    "cmdln": "^4.4.0",
-    "fs-extra": "^7.0.0",
-    "validana-client": "git+https://github.com/Coinversable/validana-client.git",
-    "ws": "^6.0.0"
+    "cmdln": "^6.0.0",
+    "dashdash": "git+ssh://git@github.com:DvdGiessen/node-dashdash.git#fix-completion-debug-log",
+    "fs-extra": "^9.0.0",
+    "@coinversable/validana-client": "^2.0.5",
+    "ws": "^7.2.3"
   },
   "devDependencies": {
-    "eslint": "^5.6.1"
+    "eslint": "^6.8.0"
   }
 }
