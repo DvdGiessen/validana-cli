@@ -26,16 +26,17 @@
     "validana-cli": "lib/index.js"
   },
   "scripts": {
-    "lint": "eslint lib/**/*.js"
+    "lint": "eslint lib/**/*.js",
+    "start": "node lib/index.js"
   },
   "dependencies": {
-    "cmdln": "^6.0.0",
+    "cmdln": "^7.0.0",
     "dashdash": "git+ssh://git@github.com:DvdGiessen/node-dashdash.git#fix-completion-debug-log",
-    "fs-extra": "^9.0.0",
-    "@coinversable/validana-client": "^2.0.5",
-    "ws": "^7.2.3"
+    "fs-extra": "^10.0.0",
+    "@coinversable/validana-client": "^2.2.0",
+    "ws": "^8.2.3"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^8.1.0"
   }
 }
